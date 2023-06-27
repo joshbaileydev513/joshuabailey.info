@@ -4,7 +4,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <header className="footerer">
+    <header className="footer">
       <h1>Footer Goes Here</h1>
     </header>
   );
