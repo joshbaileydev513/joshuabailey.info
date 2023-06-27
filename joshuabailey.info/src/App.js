@@ -1,5 +1,5 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
 
 import Header from './components/header.js';
 import Footer from './components/footer.js';
@@ -10,18 +10,24 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 
-function App() {
+function App () {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <Home />
-      <Contact />
-      <Portfolio />
-      <Resume />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Navbar />
+
+        <Routes>
+          <Route exact path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/resume" component={Resume} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
