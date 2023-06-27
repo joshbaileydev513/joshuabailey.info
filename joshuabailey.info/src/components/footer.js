@@ -4,9 +4,9 @@ import React from 'react';
 
 function Footer() {
   return (
-    <header className="footer">
+    <footer className="footer">
       <h1>Footer Goes Here</h1>
-    </header>
+    </footer>
   );
 }
 
