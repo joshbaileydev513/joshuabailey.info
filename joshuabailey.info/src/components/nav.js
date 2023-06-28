@@ -22,6 +22,11 @@ function Navbar() {
   return (
     <nav>
       {/* NavBar Content Goes here - Contact/Portfolio/Resume */}
+      <ul>
+        <li><a href=""> Portfolio </a></li>
+        <li><a href=""> Resume</a></li>
+        <li><a href=""> Contact </a></li>
+      </ul>
     </nav>
   );
 }
