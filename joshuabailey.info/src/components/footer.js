@@ -5,7 +5,9 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="footer">
-      <h1>Footer Goes Here</h1>
+      <h6>"Uncertainty and mystery are energies of life. 
+        Do not let them scare you unduly, for they keep boredom at bay and spark creativity"
+      </h6>
     </footer>
   );
 }

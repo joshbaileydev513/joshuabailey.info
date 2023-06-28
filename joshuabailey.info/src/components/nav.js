@@ -23,9 +23,9 @@ function Navbar() {
     <nav>
       {/* NavBar Content Goes here - Contact/Portfolio/Resume */}
       <ul>
-        <li><a href=""> Portfolio </a></li>
-        <li><a href=""> Resume</a></li>
-        <li><a href=""> Contact </a></li>
+        <li><a href="./Portfolio.js"> Portfolio </a></li>
+        <li><a href="./Resume.js"> Resume</a></li>
+        <li><a href="./Contact.js"> Contact </a></li>
       </ul>
     </nav>
   );

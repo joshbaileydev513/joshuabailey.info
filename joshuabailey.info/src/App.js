@@ -14,9 +14,9 @@ function App () {
   return (
     <Router>
       <div>
-        <Header />
+        <Header /> 
         <Navbar />
-
+        <Home />
         <Routes>
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={Contact} />
