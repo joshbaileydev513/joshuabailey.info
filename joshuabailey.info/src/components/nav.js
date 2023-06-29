@@ -3,30 +3,41 @@ import React from 'react';
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case
 const styles = {
-  card: {
-    margin: 20,
-    background: '#e8eaf6',
-  },
-  heading: {
+  nav: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+    flexDirection: 'row',
     background: '#9a74db',
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: '1.2rem',
-    color: 'white',
-    padding: '0 20px',
+    listStyleType: 'none',
+    width: 'auto'
   },
+
+  logo: {
+    display: 'block',
+    background: '#9a74db',
+    width: '100%'
+  },
+
+  split: {
+    display: 'inline-block',
+  }
 };
 
 // In Navbar, we can assign a style from an object by using curly braces
 function Navbar() {
   return (
-    <nav>
+    <nav style= {styles.logo}>
       {/* NavBar Content Goes here - Contact/Portfolio/Resume */}
-      <ul>
-        <li><a href="./Portfolio.js"> Portfolio </a></li>
-        <li><a href="./Resume.js"> Resume</a></li>
-        <li><a href="./Contact.js"> Contact </a></li>
-      </ul>
+      {/* create a separate styling for JB */}
+      <h3 style= {styles.split}>JB</h3>
+      <div style= {styles.split}>
+        <ul style={styles.nav}>
+          <li><a href="*"> Home </a></li>
+          <li><a href="/portfolio"> Portfolio </a></li>
+          <li><a href="/resume"> Resume</a></li>
+          <li><a href="/contact"> Contact </a></li>
+        </ul>
+      </div>
     </nav>
   );
 }

@@ -3,7 +3,6 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <h2>Joshua Bailey</h2>
             {/* Inset Picture of Me here */}
             <h3>FullStack Web Developer - MERN </h3>
              {/* Add info here about me and desires/exp */}

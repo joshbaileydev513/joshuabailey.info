@@ -14,14 +14,13 @@ function App () {
   return (
     <Router>
       <div>
-        <Header /> 
         <Navbar />
-        <Home />
+        <Header /> 
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/resume" component={Resume} />
+          <Route exact path="*" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
 
         <Footer />

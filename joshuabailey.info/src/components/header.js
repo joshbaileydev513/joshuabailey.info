@@ -5,7 +5,7 @@ import React from 'react';
 function Header() {
   return (
     <header className="header">
-      <h3>JB</h3>
+      <h2>Joshua Bailey</h2>
     </header>
   );
 }
