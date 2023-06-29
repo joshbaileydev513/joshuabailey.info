@@ -8,6 +8,7 @@ function Footer() {
       <h6>"Uncertainty and mystery are energies of life. 
         Do not let them scare you unduly, for they keep boredom at bay and spark creativity"
       </h6>
+      {/* put a few links at the bottom for my linkedIn/github etc */}
     </footer>
   );
 }
