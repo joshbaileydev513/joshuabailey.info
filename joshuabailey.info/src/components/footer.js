@@ -1,10 +1,19 @@
 import React from 'react';
-// Here we are importing a CSS file as a dependency
-// import '../styles/Footer.css';
+
+const styles = {
+  footer: {
+    display: 'flex',
+    justifyContent: 'center',
+    position: 'absolute',
+    left: '0',
+    right: '0',
+    bottom: '0',
+  },
+};
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer class="p-3 mb-2 bg-dark text-white" style= {styles.footer}>
       <h6>"Uncertainty and mystery are energies of life. 
         Do not let them scare you unduly, for they keep boredom at bay and spark creativity"
       </h6>
