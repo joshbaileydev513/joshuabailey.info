@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div>
             {/* Inset Picture of Me here */}
-            <h3 class="p-5 text-center">FullStack Web Developer - MERN </h3>
+            <h3 class="p-5 text-center">FullStack Developer - MERN </h3>
              {/* Add info here about me and desires/exp */}
              <p class="text-center font-weight-light">
                     Hi there! I am a FullStack Developer within MERN, currently enrolled in a coding bootcamp at The University
