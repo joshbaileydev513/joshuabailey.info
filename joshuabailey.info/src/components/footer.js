@@ -13,7 +13,7 @@ const styles = {
 
 function Footer() {
   return (
-    <footer class="p-3 mb-2 bg-dark text-white" style= {styles.footer}>
+    <footer class="p-3 mb-2 bg-dark text-white text-center font-weight-light" style= {styles.footer}>
       <h6>"Uncertainty and mystery are energies of life. 
         Do not let them scare you unduly, for they keep boredom at bay and spark creativity"
       </h6>
