@@ -1,9 +1,20 @@
 import React from 'react';
+// import joshPic from './src/assets/home-page-pic.png'
+
+const styles = {
+    background: {
+        backgroundColor: '#BEBEBE',
+    },
+    // pic: {
+    //     backgroundImage: 'url(./home-page-pic.png)',
+    // },
+};
 
 const Home = () => {
     return (
-        <div>
+        <div class="h-100 d-inline-block" style={styles.background}>
             {/* Inset Picture of Me here */}
+            {/* <img src={joshPic} alt="Josh Pic" /> */}
             <h3 class="p-5 text-center">FullStack Developer - MERN </h3>
              {/* Add info here about me and desires/exp */}
              <p class="text-center font-weight-light">
