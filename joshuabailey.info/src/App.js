@@ -22,9 +22,8 @@ function App () {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
-
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 };
