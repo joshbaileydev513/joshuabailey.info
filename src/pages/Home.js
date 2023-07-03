@@ -17,7 +17,7 @@ const Home = () => {
         <div class="h-100 d-inline-block" style={styles.background}>
             {/* Inset Picture of Me here */}
             <h3 class="p-1 text-center">FullStack Developer - MERN </h3>
-            <img class="p-4" src="../home-page-pic.png" alt="Josh Pic" style={styles.pic}/>
+            <img class="p-4" src="/assets/images/home-page-pic.png" alt="Josh Pic" style={styles.pic}/>
              <p class="text-center font-weight-light">
                     Hi there! I am a FullStack Developer within MERN, currently enrolled in a coding bootcamp at The University
                     of North Carolina at Charlotte. I am passionate about creating visually appealing and user-friendly
