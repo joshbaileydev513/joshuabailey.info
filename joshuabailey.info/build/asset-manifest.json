@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/joshuabailey.info/static/css/main.222027ba.css",
+    "main.js": "/joshuabailey.info/static/js/main.dfb4dea6.js",
+    "static/js/787.0d3203fd.chunk.js": "/joshuabailey.info/static/js/787.0d3203fd.chunk.js",
+    "index.html": "/joshuabailey.info/index.html",
+    "main.222027ba.css.map": "/joshuabailey.info/static/css/main.222027ba.css.map",
+    "main.dfb4dea6.js.map": "/joshuabailey.info/static/js/main.dfb4dea6.js.map",
+    "787.0d3203fd.chunk.js.map": "/joshuabailey.info/static/js/787.0d3203fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.222027ba.css",
+    "static/js/main.dfb4dea6.js"
+  ]
+}
