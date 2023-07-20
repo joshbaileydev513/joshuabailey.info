@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePic from '../assets/home-page-pic.png'
+import HomePic from '../assets/home-page-pic.png';
 
 const styles = {
     background: {
@@ -7,9 +7,9 @@ const styles = {
     },
     pic: {
         display: 'flex',
-        alignItems: 'center',
         justifyContent: 'center',
-        margin: 'auto',
+        alignItems: 'center',
+        margin: '25px',
     },
 };
 
@@ -18,8 +18,8 @@ const Home = () => {
         <div class="h-100 d-inline-block" style={styles.background}>
             {/* Inset Picture of Me here */}
             <h3 class="p-1 text-center">FullStack Developer - MERN </h3>
-            <div class="img-fluid" alt="Responsive image">
-            <img class={styles.pic} src={HomePic} alt="Josh Pic"/>
+            <div style={styles.pic} alt="Responsive image">
+                <img src={HomePic} alt="Josh Pic"/>
             </div>
              <p class="text-center font-weight-light">
                     Hi there! I am a FullStack Developer within MERN, currently enrolled in a coding bootcamp at The University

@@ -9,10 +9,10 @@ const styles = {
     picFormat: {
       display: 'flex',
       flexDirection: 'row',
+      flexWrap: 'wrap',
       borderRadius: '15px',
       padding: '15px',
       margin: '15px',
-      gap: '89px',
     },
     size: {
       height: 'auto',
