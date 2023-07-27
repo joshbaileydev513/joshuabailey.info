@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'react-router-dom';
 // Here we are importing a CSS file as a dependency
 // import '../styles/Header.css';
 import ArcadeAssem from '../assets/arcadeassembly.png';
@@ -29,18 +30,24 @@ function Projects() {
     <section style={styles.picFormat}>
       {/* Best Portfolio Piece Here */}
       <div>
-        <img src={ArcadeAssem} alt="Arcade Assembly" style={styles.size}/>
-        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
+        <a href="https://arcade-assembly-c977bb949035.herokuapp.com/" target="_blank" rel="noreferrer">
+          <img src={ArcadeAssem} alt="Arcade Assembly" style={styles.size}/>
+          {/* NEED BUTTON TO REPO */}
+        </a>
       </div>
       {/* Portfolio Project #2 */}
       <div>
-        <img src={BrickThat} alt="Brick That" style={styles.size}/>
-        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
+        <a href="https://brick-that.herokuapp.com/" target="_blank" rel="noreferrer">
+          <img src={BrickThat} alt="Brick That" style={styles.size}/>
+          {/* NEED BUTTON TO REPO */}
+        </a>
       </div>
       {/* Portfolio Project #3 */}
       <div>
-        <img src={BobsBurgers} alt="Bobs Burgers API" style={styles.size}/>
-        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
+        <a href="https://joshbaileydev513.github.io/bobs-burgers-project/" target="_blank" rel="noreferrer">
+          <img src={BobsBurgers} alt="Bobs Burgers API" style={styles.size}/>
+          {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
+        </a>
       </div>
       {/* Portfolio Project #4 */}
       <div>
@@ -49,13 +56,17 @@ function Projects() {
       </div>
       {/* Portfolio Project #5 */}
       <div>
-        <img src={NoteTaker} alt="Note Taker App" style={styles.size}/>
-        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
+        <a href="https://note-taker-app-uncc.herokuapp.com/" target="_blank" rel="noreferrer">
+          <img src={NoteTaker} alt="Note Taker App" style={styles.size}/>
+          {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
+        </a>
       </div>
       {/* Portfolio Project #6 */}
       <div>
-        <img src={ReadmeGen} alt="readme generator" style={styles.size}/>
-        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
+        <a href="https://app.screencastify.com/manage/videos/xrR4u9qmVMsZMdTKu5oa" target="_blank" rel="noreferrer">
+          <img src={ReadmeGen} alt="readme generator" style={styles.size}/>
+          {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
+        </a>
       </div>
     </section>
   );
