@@ -15,12 +15,12 @@ const styles = {
       flexDirection: 'row',
       flexWrap: 'wrap',
       borderRadius: '15px',
-      paddingRight: '15px',
-      margin: '15px',
+      justifyContent: 'center',
     },
     size: {
-      height: 'auto',
-      width: '100px'
+      height: '300px',
+      width: '300px',
+      padding: '10px',
     }
 };
 
