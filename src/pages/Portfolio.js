@@ -7,9 +7,8 @@ const Portfolio = () => {
             <h3 class="p-5 text-center">Portfolio</h3>
              <Projects />
              <p class="text-center font-weight-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Natus, alias ipsa? Eius debitis minima, minus consequuntur numquam ut tempora excepturi
-                    quod maiores, porro blanditiis ipsum, autem et alias voluptate dolor.
+                    Above are they various projects or applications I feel the most proud of. Each picture is linked to the
+                    live application along with a button to bring you to the github repo!
             </p>
         </div>
     );

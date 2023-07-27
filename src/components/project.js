@@ -15,7 +15,7 @@ const styles = {
       flexDirection: 'row',
       flexWrap: 'wrap',
       borderRadius: '15px',
-      padding: '15px',
+      paddingRight: '15px',
       margin: '15px',
     },
     size: {
@@ -30,32 +30,32 @@ function Projects() {
       {/* Best Portfolio Piece Here */}
       <div>
         <img src={ArcadeAssem} alt="Arcade Assembly" style={styles.size}/>
-        {/* NEED LINK TO REPO &/OR WORKING SITE OR VIDEO */}
+        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
       </div>
       {/* Portfolio Project #2 */}
       <div>
         <img src={BrickThat} alt="Brick That" style={styles.size}/>
-        {/* NEED LINK TO REPO &/OR WORKING SITE OR VIDEO */}
+        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
       </div>
       {/* Portfolio Project #3 */}
       <div>
         <img src={BobsBurgers} alt="Bobs Burgers API" style={styles.size}/>
-        {/* NEED LINK TO REPO &/OR WORKING SITE OR VIDEO */}
+        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
       </div>
       {/* Portfolio Project #4 */}
       <div>
         <img src={TextEditor} alt="Text Editor PWA" style={styles.size}/>
-        {/* NEED LINK TO REPO &/OR WORKING SITE OR VIDEO */}
+        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
       </div>
       {/* Portfolio Project #5 */}
       <div>
         <img src={NoteTaker} alt="Note Taker App" style={styles.size}/>
-        {/* NEED LINK TO REPO &/OR WORKING SITE OR VIDEO */}
+        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
       </div>
       {/* Portfolio Project #6 */}
       <div>
         <img src={ReadmeGen} alt="readme generator" style={styles.size}/>
-        {/* NEED LINK TO REPO &/OR WORKING SITE OR VIDEO */}
+        {/* NEED BUTTON TO REPO &/OR WORKING SITE OR VIDEO */}
       </div>
     </section>
   );
