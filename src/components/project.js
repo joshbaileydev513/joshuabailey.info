@@ -15,13 +15,15 @@ const styles = {
       display: 'flex',
       flexDirection: 'row',
       flexWrap: 'wrap',
-      justifyContent: 'center',
+      justifyContent: 'center'
     },
     size: {
       borderRadius: '50px',
       height: '300px',
       width: '300px',
+      border: '2px solid #555555',
       padding: '10px',
+      margin: '10px'
     },
     btn: {
       textAlign: 'center',
