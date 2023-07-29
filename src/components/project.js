@@ -15,10 +15,10 @@ const styles = {
       display: 'flex',
       flexDirection: 'row',
       flexWrap: 'wrap',
-      borderRadius: '15px',
       justifyContent: 'center',
     },
     size: {
+      borderRadius: '50px',
       height: '300px',
       width: '300px',
       padding: '10px',
