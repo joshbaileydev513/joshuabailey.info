@@ -9,11 +9,17 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
+const styles = {
+  root: {
+    minHeight: '100vh',
+    position: 'relative'
+  }
+}
 
 function App () {
   return (
     <Router>
-      <div>
+      <div style= {styles.root}>
         <NavComp />
         <Header /> 
         <Routes>

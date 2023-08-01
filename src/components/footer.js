@@ -4,7 +4,7 @@ const styles = {
   footer: {
     display: 'flex',
     justifyContent: 'center',
-    position: 'absolute',
+    position: 'relative',
     left: '0',
     right: '0',
     bottom: '0',

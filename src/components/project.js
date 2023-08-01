@@ -18,17 +18,11 @@ const styles = {
   },
   size: {
     borderRadius: '50px',
-    height: '300px',
-    width: '300px',
+    height: '250px',
+    width: '250px',
     border: '2px solid #555555',
     padding: '10px',
     margin: '10px'
-  },
-  btn: {
-    textAlign: 'center',
-    backgroundColor: '#555555',
-    color: 'white',
-    borderRadius: '12px',
   },
   btnCenter: {
     display: 'flex',
