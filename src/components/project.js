@@ -26,7 +26,8 @@ const styles = {
   },
   btnCenter: {
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    textDecoration: 'none'
   }
 };
 
@@ -35,7 +36,7 @@ function Projects() {
     <section style={styles.picFormat}>
       {/* Best Portfolio Piece Here */}
       <div>
-        <a href="https://arcade-assembly-c977bb949035.herokuapp.com/" target="_blank" rel="noreferrer">
+        <a class="text-decoration-none" href="https://arcade-assembly-c977bb949035.herokuapp.com/" target="_blank" rel="noreferrer">
           <img src={ArcadeAssem} alt="Arcade Assembly" style={styles.size} />
           <br />
           <div style={styles.btnCenter}>
