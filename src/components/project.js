@@ -40,55 +40,57 @@ function Projects() {
           <img src={ArcadeAssem} alt="Arcade Assembly" style={styles.size} />
           <br />
           <div style={styles.btnCenter}>
-            <button type="button" class="btn btn-outline-dark">GitHub Repo</button>
+            <button type="button" class="btn btn-outline-dark">Arcade Assembly</button>
           </div>
         </a>
       </div>
       {/* Portfolio Project #2 */}
       <div>
-        <a href="https://brick-that.herokuapp.com/" target="_blank" rel="noreferrer">
+        <a class="text-decoration-none" href="https://brick-that.herokuapp.com/" target="_blank" rel="noreferrer">
           <img src={BrickThat} alt="Brick That" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">GitHub Repo</button>
+            <button type="button" class="btn btn-outline-dark">BrickThat</button>
           </div>
         </a>
       </div>
       {/* Portfolio Project #3 */}
       <div>
-        <a href="https://joshbaileydev513.github.io/bobs-burgers-project/" target="_blank" rel="noreferrer">
+        <a class="text-decoration-none" href="https://joshbaileydev513.github.io/bobs-burgers-project/" target="_blank" rel="noreferrer">
           <img src={BobsBurgers} alt="Bobs Burgers API" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">GitHub Repo</button>
+            <button type="button" class="btn btn-outline-dark">Bob's Burgers BIO</button>
           </div>
         </a>
       </div>
       {/* Portfolio Project #4 */}
       <div>
-        <img src={TextEditor} alt="Text Editor PWA" style={styles.size} />
-        <br />
-        <div style={styles.btnCenter} >
-          <button type="button" class="btn btn-outline-dark">GitHub Repo</button>
-        </div>
+        <a class="text-decoration-none" href="https://joshbaileydev513.github.io/bobs-burgers-project/" target="_blank" rel="noreferrer">
+          <img src={TextEditor} alt="Text Editor PWA" style={styles.size} />
+          <br />
+          <div style={styles.btnCenter} >
+            <button type="button" class="btn btn-outline-dark">J.A.T.E</button>
+          </div>
+        </a>
       </div>
       {/* Portfolio Project #5 */}
       <div>
-        <a href="https://note-taker-app-uncc.herokuapp.com/" target="_blank" rel="noreferrer">
+        <a class="text-decoration-none" href="https://note-taker-app-uncc.herokuapp.com/" target="_blank" rel="noreferrer">
           <img src={NoteTaker} alt="Note Taker App" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">GitHub Repo</button>
+            <button type="button" class="btn btn-outline-dark">Note Taker Express</button>
           </div>
         </a>
       </div>
       {/* Portfolio Project #6 */}
       <div>
-        <a href="https://app.screencastify.com/manage/videos/xrR4u9qmVMsZMdTKu5oa" target="_blank" rel="noreferrer">
+        <a class="text-decoration-none" href="https://app.screencastify.com/manage/videos/xrR4u9qmVMsZMdTKu5oa" target="_blank" rel="noreferrer">
           <img src={ReadmeGen} alt="readme generator" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">GitHub Repo</button>
+            <button type="button" class="btn btn-outline-dark">ReadMe Generator</button>
           </div>
         </a>
       </div>
