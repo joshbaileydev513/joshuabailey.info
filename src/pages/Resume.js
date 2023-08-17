@@ -21,7 +21,7 @@ const Resume = () => {
                 onLoadSuccess={onDocumentLoadSuccess}
             >
                 {Array.from(new Array(numPages), (el, index) => (
-                    <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+                    <Page key={`page_${index + 1}`} pageNumber={index + 1} renderTextLayer={false} />
                 ))}
             </Document>
             <p className="text-center font-weight-light">
