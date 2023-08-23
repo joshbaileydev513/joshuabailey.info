@@ -21,7 +21,12 @@ const Resume = () => {
 
     return (
         <div class="text-center">
-            <h3 class="p-5">Resume</h3>
+            <h3 class="p-3 font-weight-bold">Resume</h3>
+            <p class="font-weight-light">
+                Enthusiastic, and driven development professional with a passion for working diligently to complete
+                any tasks at hand. Avid learner who is willing to put in the time needed to successfully pick up new
+                skills needed within any role. FullStack MERN Certification from The University of North Carolina at Charlotte Coding Bootcamp.
+            </p>
             <div style={styles.center}>
                 <Document 
                     file={ResumePdf}
@@ -32,11 +37,6 @@ const Resume = () => {
                     ))}
                 </Document>
             </div>
-            <p class="font-weight-light">
-                Enthusiastic, and driven development professional with a passion for working diligently to complete
-                any tasks at hand. Avid learner who is willing to put in the time needed to successfully pick up new
-                skills needed within any role. FullStack MERN Certification from The University of North Carolina at Charlotte Coding Bootcamp.
-            </p>
             <div class="p-5">
                 <a href={ResumePdf} target="_blank" rel="noopener noreferrer">
                     <button type="button" class="btn btn-outline-dark">Download PDF Here</button>
