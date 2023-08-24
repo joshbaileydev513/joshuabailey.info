@@ -39,10 +39,17 @@ function Projects() {
         <a class="text-decoration-none" href="https://arcade-assembly-c977bb949035.herokuapp.com/" target="_blank" rel="noreferrer">
           <img src={ArcadeAssem} alt="Arcade Assembly" style={styles.size} />
           <br />
-          <div style={styles.btnCenter}>
-            <button type="button" class="btn btn-outline-dark">Arcade Assembly</button>
-          </div>
         </a>
+        <div style={styles.btnCenter}>
+          <a class="text-decoration-none" href="https://github.com/brandta-1/please-hire-us" target="_blank" rel="noreferrer">
+            <button
+              type="button"
+              class="btn btn-outline-dark"
+            >
+              Arcade Assembly
+            </button>
+          </a>
+        </div>
       </div>
       {/* Portfolio Project #2 */}
       <div>
@@ -50,7 +57,13 @@ function Projects() {
           <img src={BrickThat} alt="Brick That" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">BrickThat</button>
+            <a class="text-decoration-none" href="https://github.com/brandta-1/Brick-That" target="_blank" rel="noreferrer">
+              <button
+                type="button"
+                class="btn btn-outline-dark">
+                BrickThat
+              </button>
+            </a>
           </div>
         </a>
       </div>
@@ -60,17 +73,31 @@ function Projects() {
           <img src={BobsBurgers} alt="Bobs Burgers API" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">Bob's Burgers BIO</button>
+            {/* need to put github link */}
+            <a class="text-decoration-none" href="https://github.com/joshbaileydev513/bobs-burgers-project" target="_blank" rel="noreferrer">
+              <button
+                type="button"
+                class="btn btn-outline-dark">
+                Bob's Burgers BIO
+              </button>
+            </a>
           </div>
         </a>
       </div>
       {/* Portfolio Project #4 */}
       <div>
-        <a class="text-decoration-none" href="https://joshbaileydev513.github.io/bobs-burgers-project/" target="_blank" rel="noreferrer">
+        <a class="text-decoration-none" href="https://rocky-hamlet-57968-0c2b462c5658.herokuapp.com/" target="_blank" rel="noreferrer">
           <img src={TextEditor} alt="Text Editor PWA" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">J.A.T.E</button>
+            {/* need to put github link */}
+            <a class="text-decoration-none" href="https://github.com/joshbaileydev513/text-editor-pwa" target="_blank" rel="noreferrer">
+              <button
+                type="button"
+                class="btn btn-outline-dark">
+                J.A.T.E
+              </button>
+            </a>
           </div>
         </a>
       </div>
@@ -80,7 +107,14 @@ function Projects() {
           <img src={NoteTaker} alt="Note Taker App" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">Note Taker Express</button>
+            {/* need to put github link */}
+            <a class="text-decoration-none" href="https://github.com/joshbaileydev513/note-taker-app" target="_blank" rel="noreferrer">
+              <button
+                type="button"
+                class="btn btn-outline-dark">
+                Note Taker Express
+              </button>
+            </a>
           </div>
         </a>
       </div>
@@ -90,7 +124,14 @@ function Projects() {
           <img src={ReadmeGen} alt="readme generator" style={styles.size} />
           <br />
           <div style={styles.btnCenter} >
-            <button type="button" class="btn btn-outline-dark">ReadMe Generator</button>
+            {/* need to put github link */}
+            <a class="text-decoration-none" href="https://github.com/joshbaileydev513/readme-generator" target="_blank" rel="noreferrer">
+              <button
+                type="button"
+                class="btn btn-outline-dark">
+                ReadMe Generator
+              </button>
+            </a>
           </div>
         </a>
       </div>
