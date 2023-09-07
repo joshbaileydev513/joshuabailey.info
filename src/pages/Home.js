@@ -11,6 +11,9 @@ const styles = {
         alignItems: 'center',
         margin: '25px',
     },
+    border: {
+        borderRadius: '15px 50px',
+    },
 };
 
 const Home = () => {
@@ -19,7 +22,7 @@ const Home = () => {
             {/* Inset Picture of Me here */}
             <h3 class="p-1 text-center">FullStack Developer - MERN </h3>
             <div style={styles.pic} alt="Responsive image">
-                <img src={HomePic} alt="Josh Pic"/>
+                <img style={styles.border} src={HomePic} alt="Josh Pic"/>
             </div>
              <p class="text-center font-weight-light">
                     Hi there, I am a Developer with a FullStack MERN Certication from The University of North Carolina at Charlotte Coding Bootcamp. I am passionate about creating visually appealing and user-friendly

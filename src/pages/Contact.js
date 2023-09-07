@@ -11,6 +11,7 @@ const styles = {
         margin: '25px',
         height: '350px',
         width: '350px',
+        borderRadius: '15px 50px',
     },
 }
 
