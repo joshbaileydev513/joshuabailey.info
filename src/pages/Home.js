@@ -14,6 +14,9 @@ const styles = {
     border: {
         borderRadius: '15px 50px',
     },
+    textPadding: {
+        padding: '0px 50px',
+    }
 };
 
 const Home = () => {
@@ -24,7 +27,7 @@ const Home = () => {
             <div style={styles.pic} alt="Responsive image">
                 <img style={styles.border} src={HomePic} alt="Josh Pic"/>
             </div>
-             <p class="text-center font-weight-light">
+             <p class="text-center font-weight-light" style={styles.textPadding}>
                     Hi there, I am a Developer with a FullStack MERN Certication from The University of North Carolina at Charlotte Coding Bootcamp. I am passionate about creating visually appealing and user-friendly
                     websites and applications. My goal is to use my skills and knowledge to create meaningful and impactful digital
                     experiences for users. In my free time, I enjoy staying up to date with the latest technology and trends in the industry
