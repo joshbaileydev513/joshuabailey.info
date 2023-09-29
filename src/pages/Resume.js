@@ -7,10 +7,14 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
     },
-    textPadding: {
+     textStyling: {
         padding: '0px 50px',
+        fontFamily: 'monospace',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontWeight: 'light',
     },
-}
+};
 
 const Resume = () => {
     const [numPages, setNumPages] = useState(null);
@@ -25,7 +29,7 @@ const Resume = () => {
     return (
         <div class="text-center">
             <h3 class="p-3 font-weight-bold">Resume</h3>
-            <p class="font-weight-light">
+            <p class="font-weight-light" style={styles.textStyling}>
                 Enthusiastic, and driven development professional with a passion for working diligently to complete
                 any tasks at hand. Avid learner who is willing to put in the time needed to successfully pick up new
                 skills needed within any role. FullStack MERN Certification from The University of North Carolina at Charlotte Coding Bootcamp.

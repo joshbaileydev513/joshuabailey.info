@@ -13,8 +13,12 @@ const styles = {
         width: '350px',
         borderRadius: '15px 50px',
     },
-    textPadding: {
+    textStyling: {
         padding: '0px 50px',
+        fontFamily: 'monospace',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontWeight: 'light',
     },
 }
 
@@ -23,7 +27,7 @@ const Contact = () => {
         <div style={styles.main}>
             <h3 class="p-3 text-center">Contact Me</h3>
             <img src={ContactPic} alt="Contact Picture" style={styles.pic}/>
-            <p class="text-center font-weight-light" style={styles.textPadding}> As a software developer, I am driven by an unwavering passion for learning and an eagerness to take on any new task that comes my way. 
+            <p class="text-center font-weight-light" style={styles.textStyling}> As a software developer, I am driven by an unwavering passion for learning and an eagerness to take on any new task that comes my way. 
                 My dedication and hardworking capabilities have allowed me to continuously expand my skill set and tackle complex challenges with enthusiasm. 
                 I firmly believe in the power of continuous improvement, and I am committed to staying at the forefront of technological advancements in the field. 
                 I am confident that my enthusiasm, coupled with my strong work ethic, would make me a valuable asset to your team. I look forward to the opportunity to contribute and grow with your company!</p>

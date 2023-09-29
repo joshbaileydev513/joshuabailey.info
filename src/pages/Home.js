@@ -4,6 +4,7 @@ import HomePic from '../assets/home-page-pic.png';
 const styles = {
     background: {
         backgroundColor: '#BEBEBE',
+        fontFamily: 'monospace',
     },
     pic: {
         display: 'flex',
