@@ -1,4 +1,6 @@
 import React from 'react';
+import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-solid-svg-icons';
 
 const styles = {
   footer: {
@@ -18,6 +20,8 @@ function Footer() {
         Do not let them scare you unduly, for they keep boredom at bay and spark creativity"
       </h6>
       {/* put a few links at the bottom for my linkedIn/github etc */}
+      <FontAwesomeIcon icon={faLinkedin} style={{color: "#ffc800",}} />
+      <FontAwesomeIcon icon={faGithub} style={{color: "#ffc800",}} />
     </footer>
   );
 }
