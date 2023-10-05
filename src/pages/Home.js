@@ -10,10 +10,10 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        margin: '25px',
+        margin: '35px',
     },
     border: {
-        borderRadius: '15px 50px',
+        borderRadius: '2px 75px',
     },
     textPadding: {
         padding: '0px 50px',
@@ -24,7 +24,7 @@ const Home = () => {
     return (
         <div class="h-100 d-inline-block" style={styles.background}>
             {/* Inset Picture of Me here */}
-            <h3 class="p-1 text-center">FullStack Developer - MERN </h3>
+            <h3 class="p-3 text-center">FullStack Developer - MERN </h3>
             <div style={styles.pic} alt="Responsive image">
                 <img style={styles.border} src={HomePic} alt="Josh Pic"/>
             </div>
