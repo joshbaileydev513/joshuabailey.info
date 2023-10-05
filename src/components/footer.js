@@ -1,6 +1,5 @@
 import React from 'react';
-import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-solid-svg-icons';
+import 'font-awesome/css/font-awesome.min.css';
 
 const styles = {
   footer: {
@@ -19,9 +18,16 @@ function Footer() {
       <h6>"Uncertainty and mystery are energies of life. 
         Do not let them scare you unduly, for they keep boredom at bay and spark creativity"
       </h6>
-      {/* put a few links at the bottom for my linkedIn/github etc */}
-      <FontAwesomeIcon icon={faLinkedin} style={{color: "#ffc800",}} />
-      <FontAwesomeIcon icon={faGithub} style={{color: "#ffc800",}} />
+        {/* put a few links at the bottom for my linkedIn/github etc */}
+        <div className="footer-icons">
+          <a href="https://github.com/joshbaileydev513">
+            <i className="fa fa-github" target="_blank"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/joshuacbailey/">
+            <i className="fa fa-linkedin" target="_blank"></i>
+          </a>
+          {/* Add more icons as needed */}
+        </div>
     </footer>
   );
 }
