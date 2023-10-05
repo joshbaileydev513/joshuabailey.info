@@ -10,6 +10,14 @@ const styles = {
     right: '0',
     bottom: '0',
   },
+  icons: {
+    display: 'flex',
+    justifyContent: 'space-around',
+    textDecoration: 'none',
+    color: '#333',
+    fontSize: '24px',
+    margin: '0 10px',
+  },
 };
 
 function Footer() {
@@ -19,12 +27,12 @@ function Footer() {
         Do not let them scare you unduly, for they keep boredom at bay and spark creativity"
       </h6>
         {/* put a few links at the bottom for my linkedIn/github etc */}
-        <div className="footer-icons">
-          <a href="https://github.com/joshbaileydev513">
-            <i className="fa fa-github" target="_blank"></i>
+        <div stlye={styles.icons}>
+          <a href="https://github.com/joshbaileydev513" target="_blank">
+            <i className="fa fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/joshuacbailey/">
-            <i className="fa fa-linkedin" target="_blank"></i>
+          <a href="https://www.linkedin.com/in/joshuacbailey/" target="_blank">
+            <i className="fa fa-linkedin"></i>
           </a>
           {/* Add more icons as needed */}
         </div>
