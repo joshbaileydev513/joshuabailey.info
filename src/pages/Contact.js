@@ -5,6 +5,7 @@ const styles = {
     main: {
         display: 'flex',
         flexDirection: 'column',
+        fontFamily: 'monospace',
     },
     pic: {
         alignSelf: 'center',
@@ -15,7 +16,6 @@ const styles = {
     },
     textStyling: {
         padding: '0px 50px',
-        fontFamily: 'monospace',
         justifyContent: 'center',
         alignItems: 'center',
         fontWeight: 'light',
