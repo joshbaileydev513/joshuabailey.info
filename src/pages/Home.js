@@ -10,13 +10,13 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        margin: '35px',
+        margin: '75px',
     },
     border: {
         borderRadius: '2px 75px',
     },
     textPadding: {
-        padding: '0px 50px',
+        padding: '0px 150px',
     }
 };
 
