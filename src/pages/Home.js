@@ -5,6 +5,7 @@ const styles = {
     background: {
         backgroundColor: '#BEBEBE',
         fontFamily: 'monospace',
+        paddingTop: '200px',
     },
     pic: {
         display: 'flex',
@@ -16,7 +17,7 @@ const styles = {
         borderRadius: '2px 75px',
     },
     textPadding: {
-        padding: '0px 150px',
+        padding: '0px 110px',
     }
 };
 
