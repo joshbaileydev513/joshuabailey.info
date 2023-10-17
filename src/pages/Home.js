@@ -17,7 +17,7 @@ const styles = {
         borderRadius: '2px 75px',
     },
     textPadding: {
-        padding: '0px 110px',
+        padding: '20px 50px',
     }
 };
 
