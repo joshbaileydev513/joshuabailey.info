@@ -38,7 +38,7 @@ const styles = {
         margin: '50px',
     },
     border: {
-        borderRadius: '2px 75px',
+        borderRadius: '5px 50px',
     },
 };
 
