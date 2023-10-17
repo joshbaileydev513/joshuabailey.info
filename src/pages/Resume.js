@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ResumePdf from '../assets/joshua-bailey-res-2023.pdf';
 import { Document, Page, pdfjs } from 'react-pdf';
+import Family from '../assets/family.png';
 // import '../index.css';
 
 const styles = {
@@ -30,6 +31,15 @@ const styles = {
         alignItems: 'center',
         fontWeight: 'light',
     },
+    pic: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        margin: '50px',
+    },
+    border: {
+        borderRadius: '2px 75px',
+    },
 };
 
 const Resume = () => {
@@ -50,6 +60,9 @@ const Resume = () => {
                 any tasks at hand. Avid learner who is willing to put in the time needed to successfully pick up new
                 skills needed within any role. FullStack MERN Certification from The University of North Carolina at Charlotte Coding Bootcamp.
             </p>
+            <div style={styles.pic} alt="Responsive image">
+                <img style={styles.border} src={Family} alt="Family Pic"/>
+            </div>
             {/* <div style={styles.center} class="responsive-container">
                 <Document 
                     file={ResumePdf}
