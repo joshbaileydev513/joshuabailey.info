@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* For iPhone SE */
+@media (max-width: 320px) {
+  /* Adjust container styles for iPhone SE */
+  .responsive-container {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* For iPhone XR */
+@media (min-width: 321px) and (max-width: 414px) {
+  /* Adjust container styles for iPhone XR */
+  .responsive-container {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* For iPhone 12 Pro */
+@media (min-width: 415px) {
+  /* Adjust container styles for iPhone 12 Pro */
+  .responsive-container {
+    max-width: 100%;
+    height: auto;
+  }
+}
