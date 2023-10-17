@@ -5,13 +5,13 @@ const styles = {
     background: {
         backgroundColor: '#BEBEBE',
         fontFamily: 'monospace',
-        paddingTop: '200px',
+        paddingTop: '60px',
     },
     pic: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        margin: '75px',
+        margin: '50px',
     },
     border: {
         borderRadius: '2px 75px',
